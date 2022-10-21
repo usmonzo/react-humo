@@ -2,6 +2,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { useState } from "react";
 
 import "./App.css";
+import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <ChakraProvider>
         <Navbar />
+        <Header />
       </ChakraProvider>
     </div>
   );

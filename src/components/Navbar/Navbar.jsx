@@ -9,7 +9,7 @@ import {
   NavLink,
   NavLinksList,
 } from "./NavbarElements";
-import logo from "./nav-logo.png";
+import logo from "./Logo.svg";
 import { Menu, MenuButton, MenuItem, MenuList, Button } from "@chakra-ui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 
@@ -27,24 +27,22 @@ const Navbar = () => {
           <NavLink>О нас</NavLink>
         </NavLinksList>
         <NavBtnContent>
-          <NavButton>Интернет банк</NavButton>
           <Menu isLazy>
             <MenuButton
               as={Button}
               rightIcon={isOpen ? <ChevronDownIcon /> : <ChevronUpIcon />}
-              onClick={() => setIsOpen(true)}
+              onClick={() => (isOpen ? setIsOpen(false) : setIsOpen(true))}
             >
               РУ
             </MenuButton>
             {isOpen ? (
-              <>
-                <MenuList>
-                  <MenuItem>Точики</MenuItem>
-                  <MenuItem>English</MenuItem>
-                </MenuList>
-              </>
+              <MenuList>
+                <MenuItem>Точики</MenuItem>
+                <MenuItem>English</MenuItem>
+              </MenuList>
             ) : null}
           </Menu>
+          <NavButton>Вход</NavButton>
         </NavBtnContent>
       </NavbarContent>
     </NavbarContainer>
