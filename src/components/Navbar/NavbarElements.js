@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const NavbarContainer = styled.div`
   background: #f2f3f4;
   display: flex;
+  height: 80px;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: sticky;
   transition: 0.8s all ease;
+  z-index: 10;
 `;
 
 export const NavbarContent = styled.div`
@@ -18,8 +20,7 @@ export const NavbarContent = styled.div`
   padding: 2px 24px;
   max-width: 1100px;
   @media screen and (max-width: 950px) {
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-around;
   }
 `;
 
@@ -46,6 +47,9 @@ export const NavLinksList = styled.ul`
   }
 `;
 export const NavLink = styled.li`
+  font-size: 16px;
+  font-weight: 500;
+  color: #030303;
   text-decoration: none;
   color: #030303;
   list-style: none;
@@ -62,6 +66,7 @@ export const NavBtnContent = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 `;
 
 export const NavButton = styled.button`
