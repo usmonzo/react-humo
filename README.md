@@ -1,1 +1,1 @@
-# react-better-humo
+# react-humo
