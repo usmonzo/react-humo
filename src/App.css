@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  /* background-color: rgb(60, 60, 60); */
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
