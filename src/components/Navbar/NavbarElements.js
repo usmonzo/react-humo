@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div`
-  background: #f2f3f4;
+  /* background: #f2f3f4; */
+  background: #ffffff;
   display: flex;
   height: 80px;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  /* position: sticky; */
+  position: sticky;
   transition: 0.8s all ease;
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 `;
 
 export const NavbarContent = styled.div`

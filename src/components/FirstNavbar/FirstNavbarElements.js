@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FirstNavbarContainer = styled.div`
-  background: #ececec;
+  background: #e3e3e3;
   box-sizing: border-box;
 `;
 

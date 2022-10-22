@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-  /* border: 1px solid black; */
-  /* background-color: lightgray; */
   display: flex;
   justify-content: center;
-  background: #f5f6f7;
+  background: #ffffff;
 `;
 
 export const HeaderContent = styled.div`
