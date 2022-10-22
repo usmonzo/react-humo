@@ -7,9 +7,9 @@ export const NavbarContainer = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  /* position: sticky; */
   transition: 0.8s all ease;
-  z-index: 10;
+  z-index: 1;
 `;
 
 export const NavbarContent = styled.div`
@@ -18,10 +18,10 @@ export const NavbarContent = styled.div`
   width: 100%;
   margin: 10px;
   padding: 2px 24px;
-  max-width: 1100px;
-  @media screen and (max-width: 950px) {
+  max-width: 1300px;
+  /* @media screen and (max-width: 950px) {
     justify-content: space-around;
-  }
+  } */
 `;
 
 export const NavbarLogo = styled.div`
@@ -29,7 +29,7 @@ export const NavbarLogo = styled.div`
   cursor: pointer;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 10px;
 `;
 
 export const NavLogoImg = styled.img`
@@ -40,6 +40,7 @@ export const NavLinksList = styled.ul`
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
   gap: 20px;
 
   @media screen and (max-width: 950px) {
