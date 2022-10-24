@@ -7,7 +7,6 @@ export const NavbarContainer = styled.div`
   height: 80px;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
   /* position: sticky; */
   transition: 0.8s all ease;
   z-index: 1;
@@ -50,8 +49,8 @@ export const NavLinksList = styled.ul`
   }
 `;
 export const NavLink = styled.li`
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   color: #030303;
   text-decoration: none;
   color: #030303;
@@ -60,6 +59,7 @@ export const NavLink = styled.li`
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 
+  font-weight: 500;
   :hover {
     border-bottom: 2px solid #ff8000;
   }
@@ -74,12 +74,13 @@ export const NavBtnContent = styled.div`
 `;
 
 export const NavButton = styled.button`
-  border-radius: 10px;
+  font-weight: 500;
+  border-radius: 100px;
   background: #ff8000;
   white-space: nowrap;
-  padding: 10px 20px;
+  padding: 8px 17px;
   color: #fbfaf5;
-  font-size: 16px;
+  font-size: 18px;
   outline: none;
   border: none;
   cursor: pointer;

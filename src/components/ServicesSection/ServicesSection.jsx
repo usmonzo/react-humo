@@ -12,11 +12,11 @@ import {
   ServicesObjectTwo,
 } from "./ServicesSectionElements.js";
 import img1 from "./images/undraw_investor_update_re_qnuu.svg";
-import img2 from "./images/undraw_map_dark_re_36sy.svg";
+// import img2 from "./images/undraw_map_dark_re_36sy.svg";
 import img3 from "./images/undraw_mobile_pay_re_sjb8.svg";
 import img4 from "./images/undraw_online_posts_re_7ucl.svg";
 import img5 from "./images/undraw_online_transactions_-02-ka.svg";
-// import img6 from "./images/undraw_vault_re_s4my.svg";
+import img6 from "./images/undraw_vault_re_s4my.svg";
 
 const ServicesSection = () => {
   return (
@@ -30,33 +30,31 @@ const ServicesSection = () => {
             <ServicesBigImg src={img1} />
             <h1>
               <span>
-                <strong>Lorem ipsum dolor sit</strong>
+                <strong>Хумо Онлайн</strong>
               </span>
               <br />
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse id
-              aspernatur est.
+              Удобный способ совершать банковские операции через мобильный
+              телефон.
             </h1>
           </ServicesObjectOne>
           <ServicesObjectTwo>
             <h1>
               <span>
-                <strong>Lorem ipsum dolor sit</strong>
+                <strong>Кредиты</strong>
               </span>
               <br />
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse id
-              aspernatur est corporis.
+              Кредиты от ЗАО МДО "Хумо" повыгодным условиям.
             </h1>
-            <ServicesBigImg src={img2} />
+            <ServicesBigImg src={img6} />
           </ServicesObjectTwo>
           <ServicesObjectThree>
             <ServicesBigImg src={img3} />
             <h1>
               <span>
-                <strong>Lorem ipsum dolor sit</strong>
+                <strong>Депозиты</strong>
               </span>
               <br />
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse id
-              aspernatur est corporis totam soluta cumque .
+              Для тех, кто хочет приумножить свой капитал.
             </h1>
           </ServicesObjectThree>
           <ServicesObjectFour>
@@ -64,20 +62,19 @@ const ServicesSection = () => {
 
             <h1>
               <span>
-                <strong>Lorem ipsum dolor sit</strong>
+                <strong>Денежные переводы</strong>
               </span>
               <br />
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Быстрый и надежный способ отправки и получения денежных средств.
             </h1>
           </ServicesObjectFour>
           <ServicesObjectFive>
             <h1>
               <span>
-                <strong>Lorem ipsum dolor sit</strong>
+                <strong>Расчетно кассовое обслуживание</strong>
               </span>
               <br />
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse id
-              aspernatur est corporis totam soluta.
+              Открытие счетов для физических и юридических лиц.
             </h1>
             <ServicesBigImg src={img5} />
           </ServicesObjectFive>

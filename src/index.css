@@ -15,7 +15,11 @@
   color: #00000096;
   width: 15px;
 }
-
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0px 15px;
+}
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */

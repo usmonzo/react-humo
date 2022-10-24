@@ -3,15 +3,17 @@ import styled from "styled-components";
 export const ServicesContainer = styled.div`
   /* background-color: lightgrey; */
   margin: 50px auto;
-  padding: 10px 0;
+  padding: 50px;
+  background: #f0f0f0;
+  border-radius: 20px;
 `;
 export const ServicesContent = styled.div`
   padding: 0 20px;
   height: auto;
 `;
 export const ServicesHeadline = styled.h1`
-  font-size: 38px;
-  font-weight: 600;
+  font-size: 45px;
+  font-weight: 650;
   text-align: center;
   margin-bottom: 40px;
 `;
@@ -38,7 +40,7 @@ export const ServicesObjectOne = styled.div`
   transition: 0.2s ease-in-out;
 
   > img {
-    width: 200px;
+    width: 250px;
   }
 
   > h1 {
@@ -47,6 +49,7 @@ export const ServicesObjectOne = styled.div`
     width: 300px;
     font-size: 18px;
     font-weight: 400;
+    margin-left: 10px;
   }
   :hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -69,10 +72,14 @@ export const ServicesObjectTwo = styled.div`
   > h1 {
     color: #ffffff;
     text-align: left;
-    padding-left: 15px;
-    width: 300px;
+    padding-left: 25px;
+    width: 350px;
     font-size: 20px;
     font-weight: 400;
+  }
+  > img {
+    padding-right: 30px;
+    width: 350px;
   }
   :hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -97,6 +104,9 @@ export const ServicesObjectThree = styled.div`
     width: 300px;
     font-size: 20px;
     font-weight: 400;
+  }
+  > img {
+    width: 450px;
   }
   :hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -124,6 +134,9 @@ export const ServicesObjectFour = styled.div`
     width: 300px;
     font-size: 19px;
     font-weight: 400;
+  }
+  > img {
+    width: 450px;
   }
   :hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
