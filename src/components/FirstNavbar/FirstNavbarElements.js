@@ -24,6 +24,10 @@ export const FirstNavbarLinks = styled.ul`
 export const FirstNavbarLink = styled.li`
   text-decoration: none;
   list-style: none;
-  color: #030303;
+  color: #424140;
   cursor: pointer;
+
+  :hover {
+    color: #000;
+  }
 `;

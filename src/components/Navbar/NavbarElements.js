@@ -58,6 +58,7 @@ export const NavLink = styled.li`
   list-style: none;
   border: 2px solid transparent;
   cursor: pointer;
+  transition: all 0.1s ease-in-out;
 
   :hover {
     border-bottom: 2px solid #ff8000;

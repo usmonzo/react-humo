@@ -29,7 +29,7 @@ export const ServicesObjectOne = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 450px;
-  background-color: lightgoldenrodyellow;
+  background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
   /* padding: 10px 20px; */
   border-radius: 25px;
   grid-column: 1;
@@ -57,7 +57,7 @@ export const ServicesObjectTwo = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: green;
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
   padding: 0 10px;
   border-radius: 25px;
   grid-column: 2 / 4;
@@ -69,7 +69,7 @@ export const ServicesObjectTwo = styled.div`
     width: 300px;
     font-size: 20px;
     font-weight: 400;
-    color: white;
+    color: #000;
   }
   :hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -81,7 +81,7 @@ export const ServicesObjectThree = styled.div`
   flex-direction: row;
   /* justify-content: space-between; */
   align-items: center;
-  background-color: lightblue;
+  background-image: linear-gradient(135deg, #fdeb71 10%, #f8d800 100%);
   padding: 0 30px;
   border-radius: 25px;
   grid-column: 3/ 4;
@@ -105,7 +105,9 @@ export const ServicesObjectFour = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: orange;
+
+  background-image: linear-gradient(135deg, #ce9ffc 10%, #7367f0 100%);
+
   padding: 20px;
   border-radius: 25px;
   grid-column: 1 / 3;
@@ -129,7 +131,9 @@ export const ServicesObjectFive = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: pink;
+
+  background-image: linear-gradient(135deg, #feb692 10%, #ea5455 100%);
+
   padding: 20px 30px;
   border-radius: 25px;
   grid-column: 1 / 4;

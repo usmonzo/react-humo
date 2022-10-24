@@ -10,13 +10,13 @@ import {
   ServicesObjectOne,
   ServicesObjectThree,
   ServicesObjectTwo,
-} from "./ServicesSection";
+} from "./ServicesSectionElements.js";
 import img1 from "./images/undraw_investor_update_re_qnuu.svg";
 import img2 from "./images/undraw_map_dark_re_36sy.svg";
 import img3 from "./images/undraw_mobile_pay_re_sjb8.svg";
 import img4 from "./images/undraw_online_posts_re_7ucl.svg";
 import img5 from "./images/undraw_online_transactions_-02-ka.svg";
-import img6 from "./images/undraw_vault_re_s4my.svg";
+// import img6 from "./images/undraw_vault_re_s4my.svg";
 
 const ServicesSection = () => {
   return (
@@ -34,7 +34,7 @@ const ServicesSection = () => {
               </span>
               <br />
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse id
-              aspernatur est corporis totam soluta cumque .
+              aspernatur est.
             </h1>
           </ServicesObjectOne>
           <ServicesObjectTwo>
@@ -77,8 +77,7 @@ const ServicesSection = () => {
               </span>
               <br />
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse id
-              aspernatur est corporis totam soluta cumque saepe nobis quas
-              delectus.
+              aspernatur est corporis totam soluta.
             </h1>
             <ServicesBigImg src={img5} />
           </ServicesObjectFive>
