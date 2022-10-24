@@ -10,7 +10,7 @@ export const ServicesContent = styled.div`
   height: auto;
 `;
 export const ServicesHeadline = styled.h1`
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 600;
   text-align: center;
   margin-bottom: 40px;
@@ -29,7 +29,7 @@ export const ServicesObjectOne = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 450px;
-  background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
+  background-image: linear-gradient(135deg, #28c76f 100%, #81fbb8 15%);
   /* padding: 10px 20px; */
   border-radius: 25px;
   grid-column: 1;
@@ -42,6 +42,7 @@ export const ServicesObjectOne = styled.div`
   }
 
   > h1 {
+    color: #ffffff;
     text-align: left;
     width: 300px;
     font-size: 18px;
@@ -57,19 +58,21 @@ export const ServicesObjectTwo = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+  background-image: linear-gradient(135deg, #0396ff 70%, #abdcff 100%);
   padding: 0 10px;
   border-radius: 25px;
   grid-column: 2 / 4;
   grid-row: 1 / 2;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+
   > h1 {
+    color: #ffffff;
     text-align: left;
+    padding-left: 15px;
     width: 300px;
     font-size: 20px;
     font-weight: 400;
-    color: #000;
   }
   :hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -116,6 +119,7 @@ export const ServicesObjectFour = styled.div`
   transition: 0.2s ease-in-out;
 
   > h1 {
+    color: #ffffff;
     text-align: left;
     width: 300px;
     font-size: 19px;
@@ -131,9 +135,7 @@ export const ServicesObjectFive = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  background-image: linear-gradient(135deg, #feb692 10%, #ea5455 100%);
-
+  background-image: linear-gradient(135deg, #ea5455 10%, #feb692 100%);
   padding: 20px 30px;
   border-radius: 25px;
   grid-column: 1 / 4;
@@ -142,10 +144,11 @@ export const ServicesObjectFive = styled.div`
   transition: 0.2s ease-in-out;
 
   > h1 {
-    font-size: 19px;
+    color: #ffffff;
+    font-size: 22px;
     font-weight: 400;
     text-align: left;
-    width: 450px;
+    width: 500px;
   }
 
   > img {

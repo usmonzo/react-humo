@@ -34,7 +34,7 @@ const FirstNavbar = () => {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                width: "0px",
+                zIndex: "999",
               }}
             >
               <MenuItem

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FirstNavbarContainer = styled.div`
-  background: #e3e3e3;
+  background: #f0f0f0;
   box-sizing: border-box;
 `;
 
@@ -26,6 +26,8 @@ export const FirstNavbarLink = styled.li`
   list-style: none;
   color: #424140;
   cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.5;
 
   :hover {
     color: #000;
