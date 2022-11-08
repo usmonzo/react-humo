@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const FirstNavbarContainer = styled.div`
   background: #f0f0f0;
   box-sizing: border-box;
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 `;
 
 export const FirstNavbarContent = styled.div`

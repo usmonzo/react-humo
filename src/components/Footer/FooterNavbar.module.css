@@ -2,6 +2,11 @@
   margin-top: 120px;
   background-color: #eeeeee;
 }
+@media screen and (min-width: 701px) {
+  .gray_container {
+    display: none;
+  }
+}
 
 .links {
   display: flex;
@@ -11,11 +16,11 @@
   padding: 27px 0px;
 }
 
-.links>li {
+.links > li {
   list-style-type: none;
 }
 
-.links>li>a {
+.links > li > a {
   text-decoration: none;
   font-family: "Montserrat";
   font-style: normal;
@@ -26,12 +31,12 @@
   transition: 0.2s all;
 }
 
-.links>li>a:hover {
+.links > li > a:hover {
   color: #ff5a1e;
 }
 
-@media(max-width: 885px){
-  .links>li>a{
+@media (max-width: 885px) {
+  .links > li > a {
     font-size: 16px;
   }
 }
@@ -41,7 +46,6 @@
     margin: 104px 10px 0 10px;
     background-color: #eeeeee;
     border-radius: 8px;
-    
   }
 
   .links {
@@ -52,11 +56,11 @@
     padding: 12px 0px;
   }
 
-  .links>li {
+  .links > li {
     list-style-type: none;
   }
 
-  .links>li>a {
+  .links > li > a {
     text-decoration: none;
     font-family: "Montserrat";
     font-style: normal;
@@ -68,35 +72,33 @@
   }
 }
 
-
-@media (max-width: 644px){
-  .links{
+@media (max-width: 644px) {
+  .links {
     gap: 10px;
   }
 
-  .links>li>a{
+  .links > li > a {
     font-size: 12px;
   }
 }
 
-@media(max-width: 544px){
-  .links{
+@media (max-width: 544px) {
+  .links {
     flex-direction: column;
     padding-left: 10px;
     padding: 25px 0;
   }
-  .links > li > a{
+  .links > li > a {
     font-size: 16px;
   }
 }
 
-@media (max-width: 320px){
-  .links{
+@media (max-width: 320px) {
+  .links {
     flex-direction: column;
     padding-left: 10px;
   }
-  .links > li > a{
+  .links > li > a {
     font-size: 16px;
   }
-
 }

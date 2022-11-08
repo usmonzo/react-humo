@@ -30,20 +30,20 @@ const ServicesSection = () => {
             <ServicesBigImg src={img1} />
             <h1>
               <span>
-                <strong>Хумо Онлайн</strong>
+                <strong>Кредиты</strong>
               </span>
               <br />
-              Удобный способ совершать банковские операции через мобильный
-              телефон.
+              Кредиты от ЗАО МДО "Хумо" повыгодным условиям.
             </h1>
           </ServicesObjectOne>
           <ServicesObjectTwo>
             <h1>
               <span>
-                <strong>Кредиты</strong>
+                <strong>Хумо Онлайн</strong>
               </span>
               <br />
-              Кредиты от ЗАО МДО "Хумо" повыгодным условиям.
+              Удобный способ совершать банковские операции через мобильный
+              телефон.
             </h1>
             <ServicesBigImg src={img6} />
           </ServicesObjectTwo>

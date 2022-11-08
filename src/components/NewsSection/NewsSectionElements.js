@@ -29,6 +29,10 @@ export const NewsSectionBlocks = styled.div`
   align-items: center;
   justify-content: center;
   gap: 50px;
+  @media screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const NewsBlock = styled.div`
@@ -43,6 +47,13 @@ export const NewsBlock = styled.div`
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 30px;
   border-radius: 20px;
+  @media screen and (max-width: 958px) {
+    padding: 20px;
+    height: 370px;
+  }
+  @media screen and (max-width: 903px) {
+    height: 320px;
+  }
 `;
 
 export const NewsBlockH2 = styled.h2`
@@ -50,6 +61,15 @@ export const NewsBlockH2 = styled.h2`
   padding-top: 15px;
   font-size: 22px;
   font-weight: 600;
+
+  @media screen and (max-width: 958px) {
+    text-align: center;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 903px) {
+    text-align: center;
+    font-size: 17px;
+  }
 `;
 export const NewsBlockDate = styled.p`
   font-size: 16px;
